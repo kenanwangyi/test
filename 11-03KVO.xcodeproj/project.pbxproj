@@ -15,6 +15,7 @@
 		50179DBE1BE84A9B00F12E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50179DBC1BE84A9B00F12E95 /* LaunchScreen.storyboard */; };
 		50179DC91BE84A9B00F12E95 /* _1_03KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50179DC81BE84A9B00F12E95 /* _1_03KVOTests.m */; };
 		50179DD41BE84A9B00F12E95 /* _1_03KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50179DD31BE84A9B00F12E95 /* _1_03KVOUITests.m */; };
+		50179DE31BE84B2900F12E95 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 50179DE21BE84B2900F12E95 /* Worker.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		50179DCF1BE84A9B00F12E95 /* 11-03KVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "11-03KVOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50179DD31BE84A9B00F12E95 /* _1_03KVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_03KVOUITests.m; sourceTree = "<group>"; };
 		50179DD51BE84A9B00F12E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50179DE11BE84B2900F12E95 /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		50179DE21BE84B2900F12E95 /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				50179DB21BE84A9B00F12E95 /* AppDelegate.m */,
 				50179DB41BE84A9B00F12E95 /* ViewController.h */,
 				50179DB51BE84A9B00F12E95 /* ViewController.m */,
+				50179DE11BE84B2900F12E95 /* Worker.h */,
+				50179DE21BE84B2900F12E95 /* Worker.m */,
 				50179DB71BE84A9B00F12E95 /* Main.storyboard */,
 				50179DBA1BE84A9B00F12E95 /* Assets.xcassets */,
 				50179DBC1BE84A9B00F12E95 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50179DB61BE84A9B00F12E95 /* ViewController.m in Sources */,
+				50179DE31BE84B2900F12E95 /* Worker.m in Sources */,
 				50179DB31BE84A9B00F12E95 /* AppDelegate.m in Sources */,
 				50179DB01BE84A9B00F12E95 /* main.m in Sources */,
 			);
